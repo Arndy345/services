@@ -8,6 +8,7 @@ html, body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
+    font-family: Roboto;
 }
 
 /*-----Imports------------*/
@@ -87,12 +88,30 @@ html, body {
     }
 }
 
+/*------------Services Section--------------*/
+
+/*Change the images to flex-box and space between them*/
+
 .Text {
     display: flex;
     justify-content: space-between;
 }
 
-.icon {}
+/*Adjust the links according to different states of the link*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #C4C4C4;
+    text-decoration: none;
+}
+
+a:active {
+    color: orange;
+}
 
 .checked {
     color: orange;
